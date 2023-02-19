@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	<link rel="stylesheet" href="external1.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login Page</title>
+	<link rel="stylesheet" href="external1.css">
+	<style>
+		img.center {
+			display: block;
+			margin: auto;
+		}
+	</style>
 	<script>
 		function validateForm() {
 			var userId = document.forms["loginForm"]["user_id"].value;
@@ -19,30 +24,25 @@
 			}
 		}
 	</script>
-	
 </head>
-<body><br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
+<body>
 	<br><br>
 	<br><br>
 	<br><br>
 	<br><br>
 	<br><br>
 	
-	
-	
-	
-	<h1 align="center"><i>Login Page</i></h1>
-	<form name="loginForm" onsubmit="return validateForm()"align="center">
+
+	<h1 align="center"><strong>Login Page</strong></h1>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg/2362px-Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg.png" class="center" width="200px" height="190px">
+	<br><br>
+	<form name="loginForm" onsubmit="return validateForm()" align="center">
 		<label for="user_id">User ID:</label>
-		<input type="text" id="user_id" name="user_id"value="akshith"><br><br>
+		<input type="text" id="user_id" name="user_id" value="akshith"><br><br>
 		<label for="password">Password:</label>
-		<input type="password" id="password" name="password"value="billa"><br><br>
+		<input type="password" id="password" name="password" value="billa"><br><br>
 		<input type="submit" value="Login">
-		<a href="task29.html">New?Create a New Account</a>
+		<a href="task29.html">New? Create a New Account</a>
 	</form>
 </body>
 </html>
