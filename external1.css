@@ -1,7 +1,13 @@
-body{
-    background-color:darkgray;
-    background-image: url("srulogo.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
+
+body {
     
-}
+    background-image: url("image1.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  
